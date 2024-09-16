@@ -9,23 +9,33 @@
     width: 100%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding-inline: 12px;
 }
 
-.finControl {
+.menuHeader div {
     display: flex;
+    align-items: center;
+}
+
+.finControl {
     gap: 11px;
+    display: flex;
 }
 
-.fin {
-    padding: 1px 4px;
-    background-color: #287EFF;
-}
 
-.fin p {
-    color: #FFFFFF;
+.finControl p {
     font-size: 24px;
+    color: #FFFFFF;
     font-weight: 500;
+    line-height: 0 !important;
+    pad: 0;
+    text-transform: uppercase;
+}
+
+.finControl p:nth-child(1) {
+    text-transform: capitalize;
+    
 }
 
 .menuTitleBox {
@@ -43,6 +53,12 @@
     font-size: 14px;
     font-weight: 400;
     color: #657193;
+}
+
+.fin {
+    padding: 0 4px;
+    border-radius: 6px;
+    background-color: #287EFF;
 }
 
 .subMenu {
