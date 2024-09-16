@@ -4,6 +4,7 @@ import { ReactComponent as ReportIcon } from './images/svg/reportIcon.svg';
 import { ReactComponent as SettingIcon } from './images/svg/settingIcon.svg';
 import { ReactComponent as CloseIcon } from './images/svg/closeIcon.svg';
 import { ReactComponent as DownArrowIcon } from './images/svg/downArrowIcon.svg';
+import { ReactComponent as User } from './images/svg/user.svg';
 
 
 export const Images = {
@@ -13,6 +14,7 @@ export const Images = {
         ReportIcon,
         SettingIcon,
         CloseIcon,
-        DownArrowIcon
+        DownArrowIcon,
+        User
     }
 };

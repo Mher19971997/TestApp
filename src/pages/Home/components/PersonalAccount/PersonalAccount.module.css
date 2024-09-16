@@ -1,0 +1,19 @@
+.userProfileContainer {
+  background: #ffffff;
+  border-radius: 25px;
+  padding: 6px 29px;
+  width: 100%;
+  max-height: 82px;
+  align-items: center;
+  display: flex;
+}
+
+.userInfo {
+  gap: 10px;
+}
+
+.userInfo span {
+  color: #283047;
+  font-weight: 400;
+  font-size: 20px;
+}
