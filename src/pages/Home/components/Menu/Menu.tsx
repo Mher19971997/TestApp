@@ -9,11 +9,10 @@ import SupportComponent from '../SupportComponent/SupportComponent';
 const { SubMenu } = Menu;
 
 export const MenuComponent = () => {
-    const [openKeys, setOpenKeys] = useState([]);
-    const onOpenChange = (keys: string[]) => {
-        setOpenKeys([]);
-    };
-
+  const [openKeys, setOpenKeys] = useState([]);
+  const onOpenChange = (keys: string[]) => {
+    setOpenKeys([]);
+  };
 
     return (
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'start', gap: '4px', width: "387px", marginLeft: '160px', marginTop: '25px' }}>

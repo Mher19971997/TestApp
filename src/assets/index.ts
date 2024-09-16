@@ -6,6 +6,7 @@ import { ReactComponent as CloseIcon } from './images/svg/closeIcon.svg';
 import { ReactComponent as DownArrowIcon } from './images/svg/downArrowIcon.svg';
 import { ReactComponent as ContactIcon } from './images/svg/contactUsIcon.svg';
 import { ReactComponent as TableIcon } from './images/svg/tableArrowIcon.svg';
+import { ReactComponent as User } from './images/svg/user.svg';
 
 
 export const Images = {
@@ -17,6 +18,7 @@ export const Images = {
         CloseIcon,
         DownArrowIcon,
         ContactIcon,
-        TableIcon
+        TableIcon,
+        User
     }
 };
