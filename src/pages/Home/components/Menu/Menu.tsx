@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import styles from './menu.module.css';
 import { Button, Menu } from 'antd';
 import { AppstoreOutlined, SettingFilled, CaretDownOutlined, DownOutlined } from '@ant-design/icons';
-import { Images } from '../../assets';
+import { Images } from '../../../../assets';
 
 
 const { SubMenu } = Menu;
