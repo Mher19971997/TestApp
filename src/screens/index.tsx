@@ -1,6 +1,7 @@
-import { CSVDownloadBtn } from "../components/ CSVDownloadBtn";
-import { MenuComponent } from "../components/Menu/Menu";
 import Table from "../components/Table";
+import { CSVDownloadBtn } from "../pages/Home/components/ CSVDownloadBtn";
+import { MenuComponent } from "../pages/Home/components/Menu/Menu";
+import SupportComponent from "../pages/Home/components/SupportComponent/SupportComponent";
 import data from './../DATA.json'
 const Home = () => {
     return (
@@ -8,6 +9,7 @@ const Home = () => {
             <MenuComponent />
             <CSVDownloadBtn datas={data} downloadLoading={false} />
             <Table />
+            <SupportComponent />
         </>
     )
 }
