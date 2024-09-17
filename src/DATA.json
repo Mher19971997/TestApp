@@ -1398,5 +1398,15 @@
         "product_quantity2": 40,
         "product_quantity3": 94,
         "product_quantity4": 45655
+    },
+    {
+        "id": 101,
+        "barcode": "Итого:",
+        "product_brand": "",
+        "product_name": "",
+        "product_quantity": "",
+        "price": "",
+        "product_article": "",
+        "product_size": ""
     }
 ]

@@ -16,7 +16,7 @@ interface IEditableCell {
 }
 
 const Home = () => {
-  const [filteredData, setFilteredData] = useState<IData[]>(data);
+  const [filteredData, setFilteredData] = useState<IData[]>([]);
   const [isCleared, setIsCleared] = useState<boolean>(false);
   const [editableCell, setEditableCell] = useState<IEditableCell>({
     rowId: null,
@@ -25,8 +25,22 @@ const Home = () => {
   const [cellValue, setCellValue] = useState<string>("");
 
   const onLoad = () => {
-    setFilteredData(data);
-  };
+    const itemsBeforeLast = data.slice(0, -1);
+    const productQuantity = itemsBeforeLast.reduce((acc, item) => acc + +item.product_quantity, 0);
+    const sum = itemsBeforeLast.reduce((acc, item) => acc + +item.price, 0);
+
+    const updatedFiltered = data.map((item, index) => {
+      if (index === data.length - 1) {
+        return {
+          ...item,
+          product_quantity: productQuantity,
+          price: sum
+        };
+      }
+      return item;
+    });
+    setFilteredData(updatedFiltered as IData[]);
+  }
 
   const onClear = () => {
     setFilteredData([]);
