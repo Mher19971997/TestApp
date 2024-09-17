@@ -176,7 +176,7 @@ body {
   overflow-x: auto;
   position: relative;
   border-radius: 25px;
-  padding-inline: 20px;
+  /* padding-inline: 20px; */
 }
 
 .ant-table-tbody>tr>td:first-child {
@@ -197,8 +197,12 @@ body {
   border-radius: 0 10px 10px 0;
 }
 
+.ant-table-column-title {
+  flex: 0 !important;
+  width: fit-content !important;
+}
+
 .table-container {
   width: 100%;
   height: 729px;
-  overflow: hidden;
 }
