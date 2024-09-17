@@ -6,13 +6,23 @@ import styles from "./Home.module.css";
 import { Flex } from "antd";
 import Filter from "./components/Filter/Filter";
 import UploadData from "./components/UploadData/UploadData";
-import { useState } from "react";
+import { useState, ChangeEvent } from "react";
 import { IData } from "../../halpers/types";
+import { createTableData } from "../../halpers/misc";
+
+interface IEditableCell {
+  rowId: number | string | null;
+  columnId: number | string | null;
+}
 
 const Home = () => {
-  const [filteredData, setFilteredData] = useState<IData[]>([]);
+  const [filteredData, setFilteredData] = useState<IData[]>(data);
   const [isCleared, setIsCleared] = useState<boolean>(false);
-  const [changedData, setChangedData] = useState<any>({});
+  const [editableCell, setEditableCell] = useState<IEditableCell>({
+    rowId: null,
+    columnId: null,
+  });
+  const [cellValue, setCellValue] = useState<string>("");
 
   const onLoad = () => {
     setFilteredData(data);
@@ -22,23 +32,46 @@ const Home = () => {
     setFilteredData([]);
     setIsCleared(true);
   };
-  const tableData = data.map((item) => ({
-    id: item.id,
-    barcode: item.barcode,
-    product_brand: item.product_brand,
-    product_name: item.product_name,
-    product_quantity:
-      changedData &&
-      changedData.id === item.id &&
-      changedData.product_quantity === item.product_quantity ? (
-        <input value={"eeeeeeee"} />
-      ) : (
-        item.product_quantity
-      ),
-    price: 222,
-    product_article: "A1235677999999",
-    product_size: "50",
-  }));
+
+  const handleCellDoubleClick = (record: IData, columnId: string) => {
+    setEditableCell({ rowId: record.id, columnId });
+  };
+
+  const handleInputChange = (e: ChangeEvent<HTMLInputElement>) => {
+    setCellValue(e.target.value);
+  };
+
+  const handleInputBlur = (record: IData, columnId: string) => {
+    setFilteredData(
+      filteredData.map((item) => {
+        if (item.id === record.id) {
+          return { ...item, [columnId]: cellValue };
+        }
+        return item;
+      })
+    );
+    setEditableCell({ rowId: null, columnId: null });
+    setCellValue("");
+  };
+
+  const renderEditableCell = (
+    item: IData,
+    columnId: string
+  ): JSX.Element | string => {
+    if (editableCell.rowId === item.id && editableCell.columnId === columnId) {
+      return (
+        <input
+          value={cellValue}
+          onChange={handleInputChange}
+          onBlur={() => handleInputBlur(item, columnId)}
+          className={styles.input}
+        />
+      );
+    }
+    return item[columnId] as string;
+  };
+
+  const tableData = createTableData(filteredData, renderEditableCell);
 
   return (
     <Flex className={styles.container}>
@@ -47,7 +80,10 @@ const Home = () => {
         <UserProfile />
         <Filter setFilteredData={setFilteredData} isCleared={isCleared} />
         <UploadData onLoad={onLoad} onClear={onClear} />
-        <Table data={tableData} setChangedData={setChangedData} />
+        <Table
+          data={tableData as unknown as IData[]}
+          handleCellDoubleClick={handleCellDoubleClick}
+        />
       </Flex>
     </Flex>
   );
