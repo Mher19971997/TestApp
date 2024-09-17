@@ -42,6 +42,91 @@ const data = () => {
         sorter: (a, b) => a.product_quantity - b.product_quantity,
         sortIcon: (props) => <Images.Svg.TableIcon {...props} />
       }, 
+       {
+        title: "Товары в пути (заказы и возвраты)", dataIndex: "price", key: "center", sorter: (a, b) => a.price - b.price,
+        sortIcon: (props) => <Images.Svg.TableIcon {...props} />
+      },
+      {
+        title: "Итого кол-во товара", dataIndex: "product_quantity", key: "center",
+        sorter: (a, b) => a.product_quantity - b.product_quantity,
+        sortIcon: (props) => <Images.Svg.TableIcon {...props} />
+      }, 
+      {
+        title: "Товары в пути (заказы и возвраты)", dataIndex: "price", key: "center", sorter: (a, b) => a.price - b.price,
+        sortIcon: (props) => <Images.Svg.TableIcon {...props} />
+      },
+      {
+        title: "Итого кол-во товара", dataIndex: "product_quantity", key: "center",
+        sorter: (a, b) => a.product_quantity - b.product_quantity,
+        sortIcon: (props) => <Images.Svg.TableIcon {...props} />
+      }, {
+        title: "Товары в пути (заказы и возвраты)", dataIndex: "price", key: "center", sorter: (a, b) => a.price - b.price,
+        sortIcon: (props) => <Images.Svg.TableIcon {...props} />
+      },
+      {
+        title: "Итого кол-во товара", dataIndex: "product_quantity", key: "center",
+        sorter: (a, b) => a.product_quantity - b.product_quantity,
+        sortIcon: (props) => <Images.Svg.TableIcon {...props} />
+      }, {
+        title: "Товары в пути (заказы и возвраты)", dataIndex: "price", key: "center", sorter: (a, b) => a.price - b.price,
+        sortIcon: (props) => <Images.Svg.TableIcon {...props} />
+      },
+      {
+        title: "Итого кол-во товара", dataIndex: "product_quantity", key: "center",
+        sorter: (a, b) => a.product_quantity - b.product_quantity,
+        sortIcon: (props) => <Images.Svg.TableIcon {...props} />
+      }, {
+        title: "Товары в пути (заказы и возвраты)", dataIndex: "price", key: "center", sorter: (a, b) => a.price - b.price,
+        sortIcon: (props) => <Images.Svg.TableIcon {...props} />
+      },
+      {
+        title: "Итого кол-во товара", dataIndex: "product_quantity", key: "center",
+        sorter: (a, b) => a.product_quantity - b.product_quantity,
+        sortIcon: (props) => <Images.Svg.TableIcon {...props} />
+      }, 
+      {
+        title: "Итого кол-во товара", dataIndex: "product_quantity", key: "center",
+        sorter: (a, b) => a.product_quantity - b.product_quantity,
+        sortIcon: (props) => <Images.Svg.TableIcon {...props} />
+      }, {
+        title: "Товары в пути (заказы и возвраты)", dataIndex: "price", key: "center", sorter: (a, b) => a.price - b.price,
+        sortIcon: (props) => <Images.Svg.TableIcon {...props} />
+      },
+      {
+        title: "Итого кол-во товара", dataIndex: "product_quantity", key: "center",
+        sorter: (a, b) => a.product_quantity - b.product_quantity,
+        sortIcon: (props) => <Images.Svg.TableIcon {...props} />
+      }, {
+        title: "Товары в пути (заказы и возвраты)", dataIndex: "price", key: "center", sorter: (a, b) => a.price - b.price,
+        sortIcon: (props) => <Images.Svg.TableIcon {...props} />
+      },
+      {
+        title: "Итого кол-во товара", dataIndex: "product_quantity", key: "center",
+        sorter: (a, b) => a.product_quantity - b.product_quantity,
+        sortIcon: (props) => <Images.Svg.TableIcon {...props} />
+      }, 
+      {
+        title: "Итого кол-во товара", dataIndex: "product_quantity", key: "center",
+        sorter: (a, b) => a.product_quantity - b.product_quantity,
+        sortIcon: (props) => <Images.Svg.TableIcon {...props} />
+      }, {
+        title: "Товары в пути (заказы и возвраты)", dataIndex: "price", key: "center", sorter: (a, b) => a.price - b.price,
+        sortIcon: (props) => <Images.Svg.TableIcon {...props} />
+      },
+      {
+        title: "Итого кол-во товара", dataIndex: "product_quantity", key: "center",
+        sorter: (a, b) => a.product_quantity - b.product_quantity,
+        sortIcon: (props) => <Images.Svg.TableIcon {...props} />
+      }, {
+        title: "Товары в пути (заказы и возвраты)", dataIndex: "price", key: "center", sorter: (a, b) => a.price - b.price,
+        sortIcon: (props) => <Images.Svg.TableIcon {...props} />
+      },
+      {
+        title: "Итого кол-во товара", dataIndex: "product_quantity", key: "center",
+        sorter: (a, b) => a.product_quantity - b.product_quantity,
+        sortIcon: (props) => <Images.Svg.TableIcon {...props} />
+      }, 
+      
     ],
   };
 };

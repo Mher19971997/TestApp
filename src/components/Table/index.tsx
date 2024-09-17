@@ -4,12 +4,13 @@ import productTableData from "./data/productTableData";
 // import data from "./../../DATA.json";
 
 import "../../index.css";
+import { IData } from "../../halpers/types";
 
-interface IData {
-  data: any;
+interface IDataProps {
+  data: IData[];
 }
 
-export default function Table({data}:IData) {
+export default function Table({data}:IDataProps) {
   const { columns } = productTableData();
 
   return (
@@ -19,7 +20,7 @@ export default function Table({data}:IData) {
         columns={columns}
         showSorterTooltip={{ target: "sorter-icon" }}
         scroll={{
-          x: 1000,
+          x: 3000,
           y: 719,
         }}
         pagination={false}

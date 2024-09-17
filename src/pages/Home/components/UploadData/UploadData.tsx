@@ -2,12 +2,18 @@ import { Images } from "../../../../assets";
 import { Button, Flex } from "antd";
 import styles from "./UploadData.module.css";
 
-const UploadData = () => {
+
+interface IUpload {
+  onLoad?: () => void;
+  onClear?: () => void;
+}
+
+const UploadData = ({onLoad, onClear}:IUpload) => {
   return (
     <Flex className={`${styles.container} ${styles.fullWidth}`}>
       <div className={`${styles.borderTop} ${styles.fullWidth}`} />
       <Flex className={styles.itemsContainer}>
-        <Flex className={styles.itemContainer}>
+        <Flex className={styles.itemContainer} onClick={onLoad}>
           <Images.Svg.Upload />
           <span className={styles.text}>Загрузить данные из csv</span>
         </Flex>
@@ -18,9 +24,8 @@ const UploadData = () => {
       </Flex>
       <Flex className={styles.cancelCOntainer}>
         <div className={`${styles.fullWidth} ${styles.borderRight}`} />
-        <Button className={styles.cancelButton}>
+        <Button className={styles.cancelButton} onClick={onClear}>
           <span className={styles.cancelText}>Очистить</span>
-
           <Images.Svg.Cancel />
         </Button>
       </Flex>

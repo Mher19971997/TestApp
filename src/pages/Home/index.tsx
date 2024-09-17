@@ -1,4 +1,3 @@
-import { CSVDownloadBtn } from "./components/ CSVDownloadBtn";
 import { MenuComponent } from "./components/Menu/Menu";
 import data from "../../DATA.json";
 import Table from "../../components/Table";
@@ -11,24 +10,28 @@ import { useState } from "react";
 import { IData } from "../../halpers/types";
 
 const Home = () => {
-  const [filteredData, setFilteredData] = useState<IData[]>(data);
+  const [filteredData, setFilteredData] = useState<IData[]>([]);
+  const [isCleared, setIsCleared] = useState<boolean>(false);
+
+  const onLoad = () => {
+    setFilteredData(data);
+  }
+
+  const onClear = () => {
+    setFilteredData([]);
+    setIsCleared(true);
+  }
 
   return (
-    <>
-      <Flex className={styles.container}>
-        <div>
-          <MenuComponent />
-        </div>
-        <div>
-          <Flex className={styles.personalAccountContainer}>
-            <UserProfile />
-            <Filter setFilteredData={setFilteredData}/>
-            <UploadData />
-            <Table data={filteredData} />
-          </Flex>
-        </div>
+    <Flex className={styles.container}>
+      <MenuComponent />
+      <Flex className={styles.personalAccountContainer}>
+        <UserProfile />
+        <Filter setFilteredData={setFilteredData} isCleared={isCleared}/>
+        <UploadData onLoad={onLoad} onClear={onClear} />
+        <Table data={filteredData} />
       </Flex>
-    </>
+    </Flex>
   );
 };
 

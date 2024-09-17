@@ -1,3 +1,5 @@
+import { Dispatch, SetStateAction } from "react";
+
 export interface IData {
   id: number;
   barcode: number;
@@ -8,3 +10,13 @@ export interface IData {
   product_article: string;
   product_size: string | number;
 }
+
+export interface ICategories {
+  [key: string]: string | number;
+}
+
+export interface IFilter {
+  setFilteredData: Dispatch<SetStateAction<IData[]>>;
+  isCleared?: boolean;
+}
+ 
