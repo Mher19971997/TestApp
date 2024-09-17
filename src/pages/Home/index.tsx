@@ -12,24 +12,42 @@ import { IData } from "../../halpers/types";
 const Home = () => {
   const [filteredData, setFilteredData] = useState<IData[]>([]);
   const [isCleared, setIsCleared] = useState<boolean>(false);
+  const [changedData, setChangedData] = useState<any>({});
 
   const onLoad = () => {
     setFilteredData(data);
-  }
+  };
 
   const onClear = () => {
     setFilteredData([]);
     setIsCleared(true);
-  }
+  };
+  const tableData = data.map((item) => ({
+    id: item.id,
+    barcode: item.barcode,
+    product_brand: item.product_brand,
+    product_name: item.product_name,
+    product_quantity:
+      changedData &&
+      changedData.id === item.id &&
+      changedData.product_quantity === item.product_quantity ? (
+        <input value={"eeeeeeee"} />
+      ) : (
+        item.product_quantity
+      ),
+    price: 222,
+    product_article: "A1235677999999",
+    product_size: "50",
+  }));
 
   return (
     <Flex className={styles.container}>
       <MenuComponent />
       <Flex className={styles.personalAccountContainer}>
         <UserProfile />
-        <Filter setFilteredData={setFilteredData} isCleared={isCleared}/>
+        <Filter setFilteredData={setFilteredData} isCleared={isCleared} />
         <UploadData onLoad={onLoad} onClear={onClear} />
-        <Table data={filteredData} />
+        <Table data={tableData} setChangedData={setChangedData} />
       </Flex>
     </Flex>
   );
