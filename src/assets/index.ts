@@ -12,6 +12,7 @@ import { ReactComponent as Upload } from "./images/svg/upload.svg";
 import { ReactComponent as Cancel } from "./images/svg/cancel.svg";
 import { ReactComponent as ContactIcon } from "./images/svg/contactUsIcon.svg";
 import { ReactComponent as TableIcon } from "./images/svg/tableArrowIcon.svg";
+import { ReactComponent as Select } from "./images/svg/select.svg";
 
 export const Images = {
   Svg: {
@@ -29,5 +30,6 @@ export const Images = {
     Cancel,
     ContactIcon,
     TableIcon,
+    Select,
   },
 };

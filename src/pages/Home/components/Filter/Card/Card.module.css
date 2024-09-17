@@ -20,8 +20,25 @@
   padding: 17px;
 }
 
-.valueext {
+.valueText {
   color: rgba(23, 29, 44, 0.27);
   font-size: 16px;
   font-weight: 400;
+  max-width: 144px;
+  border: none;
+  background: transparent;
+}
+
+.valueText:focus-visible {
+  outline: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Hide the up and down arrows in Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
 }

@@ -10,13 +10,58 @@
   border-radius: 46.5px;
 }
 
+.dounloadButton {
+  background: #283047;
+  padding: 15px 17px;
+  margin-left: 6px;
+}
+
 .formButton {
   color: #ffffff;
   background: #287eff;
 }
 
-.dounloadButton {
-  background: #283047;
-  padding: 15px 17px;
-  margin-left: 6px;
+.container {
+  border-radius: 20px;
+  padding: 11px 14px;
+  max-width: 93px;
+  gap: 12px;
+  align-items: center;
+  width: auto;
+  background: #ffffff;
+  flex-wrap: wrap;
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.name {
+  color: #79858a;
+}
+.text {
+  font-weight: 400;
+  font-size: 16px;
+}
+.selectText {
+  color: #171d2c;
+}
+
+.selectContainer {
+  gap: 18px;
+  align-items: center;
+}
+.selectContainer:hover {
+  cursor: pointer;
+}
+
+.maxWidth_144 {
+  max-width: 144px;
+}
+.maxWidth_139 {
+  max-width: 139px;
+}
+
+.maxWidth_20 {
+  max-width: 20px;
 }

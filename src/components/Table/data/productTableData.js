@@ -19,7 +19,7 @@ const data = () => {
 
       },
       {
-        title: "Артикул поставщика", dataIndex: "id", key: "center", sorter: (a, b) => a.id - b.id,
+        title: "Артикул поставщика", dataIndex: "product_article", key: "center", sorter: (a, b) => a.id - b.id,
         sortIcon: (props) => <Images.Svg.TableIcon {...props} />
 
       },
