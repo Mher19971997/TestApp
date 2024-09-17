@@ -2,7 +2,7 @@ import { Dispatch, SetStateAction } from "react";
 
 export interface IData {
   id: number;
-  barcode: any;
+  barcode: number | string;
   product_brand: string;
   product_name: string;
   product_quantity: number;

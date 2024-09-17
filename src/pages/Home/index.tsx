@@ -28,7 +28,7 @@ const Home = () => {
       }
       return item;
     });
-    setFilteredData(updatedFiltered as any);
+    setFilteredData(updatedFiltered as IData[]);
   }
 
   const onClear = () => {

@@ -37,12 +37,12 @@ const Filter = ({ setFilteredData, isCleared }: IFilter) => {
       return;
     }
 
-    setFilteredData(filteredData as any);
+    setFilteredData(filteredData as IData[]);
 
     if (filteredData.length == 1) {
       setFiltered([]);
     } else {
-      setFiltered(filteredData as any);
+      setFiltered(filteredData as IData[]);
     }
   };
 
@@ -67,7 +67,7 @@ const Filter = ({ setFilteredData, isCleared }: IFilter) => {
       return item;
     });
 
-    setFilteredData(updatedFiltered as any);
+    setFilteredData(updatedFiltered as IData[]);
   }, [filtered]);
 
   useEffect(() => {
@@ -112,7 +112,7 @@ const Filter = ({ setFilteredData, isCleared }: IFilter) => {
           >
             Сформировать
           </Button>
-          <CSVDownloadBtn datas={data as any} downloadLoading={false} />
+          <CSVDownloadBtn datas={data as []} downloadLoading={false} />
         </Flex>
       </div>
     </div>
