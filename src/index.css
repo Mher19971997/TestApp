@@ -149,7 +149,8 @@ body {
 
 
 .ant-table-column-sorters {
-  justify-content: center !important;
+  gap: 5px !important;
+  justify-content: flex-start !important;
 }
 
 .custom-scrollbar {
@@ -214,12 +215,14 @@ body {
 
 .table-container {
   position: relative;
-  max-width: 100%;  /* Adjust as needed */
+  max-width: 100%;
+  /* Adjust as needed */
 }
 
 .horizontal-scrollbar {
   position: fixed;
-  bottom: 10px;  /* Adjust this value as needed */
+  bottom: 10px;
+  /* Adjust this value as needed */
   left: 0;
   width: 100%;
   overflow-x: auto;
@@ -229,4 +232,35 @@ body {
 
 .ant-table-wrapper {
   overflow: hidden;
+}
+
+/* index.css */
+.table-container .ant-table th,
+.table-container .ant-table td {
+  white-space: nowrap;
+  overflow: hidden;
+  width: 200px;
+  text-overflow: ellipsis;
+}
+
+.ant-table-wrapper .ant-table-thead th.ant-table-column-has-sorters {
+  border: none;
+}
+
+.table-container .ant-table th {
+  padding-block: 35px !important;
+  padding-inline-start: 15px !important;
+}
+
+.ant-table tr {
+  color: #171D2C;
+}
+
+.ant-table tr:last-child td:first-child {
+  color: #171D2C;
+}
+
+.ant-table tr:last-child td {
+  padding-bottom: 35px !important;
+  color: #287EFF;
 }

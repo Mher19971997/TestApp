@@ -998,5 +998,15 @@
         "price": 2134,
         "product_article": "A123",
         "product_size": "50"
+    },
+    {
+        "id": 101,
+        "barcode": "Итого:",
+        "product_brand": "",
+        "product_name": "",
+        "product_quantity": "",
+        "price": "",
+        "product_article": "",
+        "product_size": ""
     }
 ]

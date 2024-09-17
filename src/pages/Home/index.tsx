@@ -14,7 +14,21 @@ const Home = () => {
   const [isCleared, setIsCleared] = useState<boolean>(false);
 
   const onLoad = () => {
-    setFilteredData(data);
+    const itemsBeforeLast = data.slice(0, -1);
+    const productQuantity = itemsBeforeLast.reduce((acc, item) => acc + +item.product_quantity, 0);
+    const sum = itemsBeforeLast.reduce((acc, item) => acc + +item.price, 0);
+
+    const updatedFiltered = data.map((item, index) => {
+      if (index === data.length - 1) {
+        return {
+          ...item,
+          product_quantity: productQuantity,
+          price: sum
+        };
+      }
+      return item;
+    });
+    setFilteredData(updatedFiltered as any);
   }
 
   const onClear = () => {
@@ -27,7 +41,7 @@ const Home = () => {
       <MenuComponent />
       <Flex className={styles.personalAccountContainer}>
         <UserProfile />
-        <Filter setFilteredData={setFilteredData} isCleared={isCleared}/>
+        <Filter setFilteredData={setFilteredData} isCleared={isCleared} />
         <UploadData onLoad={onLoad} onClear={onClear} />
         <Table data={filteredData} />
       </Flex>
