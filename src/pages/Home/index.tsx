@@ -17,14 +17,14 @@ const Home = () => {
           <CSVDownloadBtn datas={data} downloadLoading={false} />
         </div>
         <div>
-        <Flex className={styles.personalAccountContainer}>
-          <UserProfile />
-          <Filter />
-          <UploadData />
-        </Flex>
+          <Flex className={styles.personalAccountContainer}>
+            <UserProfile />
+            <Filter />
+            <UploadData />
+            <Table />
+          </Flex>
         </div>
       </Flex>
-      <Table />
     </>
   );
 };

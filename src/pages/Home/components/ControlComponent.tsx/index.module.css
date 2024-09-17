@@ -1,0 +1,63 @@
+.menuHeader {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-inline: 30px;
+    box-sizing: border-box;
+    padding-block: 20px;
+    justify-content: space-between;
+}
+
+.menuHeader div {
+    display: flex;
+    align-items: center;
+}
+
+.finControl {
+    gap: 11px;
+    display: flex;
+}
+
+.finControl p {
+    font-size: 24px;
+    color: #FFFFFF;
+    font-weight: 500;
+    line-height: 0 !important;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.finControl p:nth-child(1) {
+    text-transform: capitalize;
+
+}
+
+.fin {
+    padding: 15px 4px;
+    border-radius: 6px;
+    background-color: #287EFF;
+}
+
+.menuTitleBox {
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    padding: 0px 10px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: #283147;
+}
+
+.menuTitleBox p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #657193;
+}
+
+.subMenu {
+    padding-left: 5px;
+    background-color: #283047;
+    padding-inline-end: 0 !important;
+    border-radius: 10px 0px 0px 0px;
+}
