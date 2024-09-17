@@ -7,3 +7,8 @@
   max-width: 958px;
   margin-bottom: 30px;
 }
+
+.container {
+  width: 100%;
+  justify-content: center;
+}

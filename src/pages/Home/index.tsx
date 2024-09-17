@@ -1,6 +1,6 @@
 import { CSVDownloadBtn } from "./components/ CSVDownloadBtn";
 import { MenuComponent } from "./components/Menu/Menu";
-import data from "../../DATA.json";
+import data from '../../DATA.json'
 import Table from "../../components/Table";
 import UserProfile from "./components/PersonalAccount";
 import styles from "./Home.module.css";
@@ -11,20 +11,23 @@ import UploadData from "./components/UploadData/UploadData";
 const Home = () => {
   return (
     <>
-      <Flex>
+      <Flex className={styles.container}>
         <div>
           <MenuComponent />
           <CSVDownloadBtn datas={data} downloadLoading={false} />
         </div>
+        <div>
         <Flex className={styles.personalAccountContainer}>
           <UserProfile />
           <Filter />
           <UploadData />
         </Flex>
+        </div>
       </Flex>
       <Table />
     </>
   );
 };
+
 
 export default Home;

@@ -10,6 +10,8 @@ import { ReactComponent as Download } from "./images/svg/download.svg";
 import { ReactComponent as Edit } from "./images/svg/edit.svg";
 import { ReactComponent as Upload } from "./images/svg/upload.svg";
 import { ReactComponent as Cancel } from "./images/svg/cancel.svg";
+import { ReactComponent as ContactIcon } from "./images/svg/contactUsIcon.svg";
+import { ReactComponent as TableIcon } from "./images/svg/tableArrowIcon.svg";
 
 export const Images = {
   Svg: {
@@ -25,5 +27,7 @@ export const Images = {
     Edit,
     Upload,
     Cancel,
+    ContactIcon,
+    TableIcon,
   },
 };
