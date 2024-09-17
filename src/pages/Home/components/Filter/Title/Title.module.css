@@ -1,0 +1,12 @@
+.title {
+  color: #171d2c;
+  font-weight: 400;
+  font-size: 34px;
+}
+
+.button {
+  background: #283047;
+  border-radius: 46.5px;
+  height: 41px;
+  padding: 11px 15px;
+}

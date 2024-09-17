@@ -17,3 +17,34 @@
   font-weight: 400;
   font-size: 20px;
 }
+
+.button {
+  font-weight: 400;
+  border-radius: 25px;
+}
+
+.buttonDate {
+  background: rgba(40, 126, 255, 0.08);
+  color: #287eff;
+  font-size: 20px;
+  padding: 23px 22px 23px 19px;
+  border: none;
+  height: 100%;
+  margin: 6px 0;
+}
+
+.logOutButton {
+  border: 0.82px solid #283047;
+  font-size: 16px;
+  padding: 11px 16px;
+  height: 41px;
+}
+
+.aboutUsButton {
+  font-size: 16px;
+  padding: 11px 16px;
+  background: #ff6b17;
+  color: #ffffff;
+  margin-left: 7px;
+  height: 41px;
+}

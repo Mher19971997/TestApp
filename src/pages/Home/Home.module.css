@@ -1,3 +1,9 @@
-.displayFlex {
-    display: flex;
+.personalAccountContainer {
+  margin-left: 51px;
+  margin-top: 25px;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 53px;
+  max-width: 958px;
+  margin-bottom: 30px;
 }

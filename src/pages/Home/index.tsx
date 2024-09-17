@@ -5,6 +5,8 @@ import Table from "../../components/Table";
 import UserProfile from "./components/PersonalAccount";
 import styles from "./Home.module.css";
 import { Flex } from "antd";
+import Filter from "./components/Filter/Filter";
+import UploadData from "./components/UploadData/UploadData";
 
 const Home = () => {
   return (
@@ -14,7 +16,11 @@ const Home = () => {
           <MenuComponent />
           <CSVDownloadBtn datas={data} downloadLoading={false} />
         </div>
-        <UserProfile />
+        <Flex className={styles.personalAccountContainer}>
+          <UserProfile />
+          <Filter />
+          <UploadData />
+        </Flex>
       </Flex>
       <Table />
     </>
