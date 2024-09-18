@@ -13,7 +13,7 @@ const UploadData = ({onLoad, onClear}:IUpload) => {
     <Flex className={`${styles.container} ${styles.fullWidth}`}>
       <div className={`${styles.borderTop} ${styles.fullWidth}`} />
       <Flex className={styles.itemsContainer}>
-        <Flex className={styles.itemContainer} onClick={onLoad}>
+        <Flex className={styles.itemContainer} onClick={onLoad} data-cy='loadData'>
           <Images.Svg.Upload />
           <span className={styles.text}>Загрузить данные из csv</span>
         </Flex>

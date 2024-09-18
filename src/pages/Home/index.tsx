@@ -106,6 +106,7 @@ const Home = () => {
           onChange={handleInputChange}
           onBlur={() => handleInputBlur(item, columnId)}
           onKeyDown={(e) => handleKeyDown(e, item, columnId)} 
+          data-cy='inputCheck'
         />
       );
     }

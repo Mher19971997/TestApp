@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 
 function App() {
   return (
-    <div className="paddingX_20">
+    <div className="paddingX_20" data-cy='main'>
       <Home />
     </div>
   );

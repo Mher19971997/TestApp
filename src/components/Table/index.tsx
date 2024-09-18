@@ -24,7 +24,7 @@ export default function Table({
   }));
 
   return (
-    <div className="table-container">
+    <div className="table-container" data-cy='table-container'>
       <AntTable
         dataSource={data}
         columns={modifiedColumns}
