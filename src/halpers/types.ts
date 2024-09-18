@@ -19,6 +19,7 @@ export interface ICategories {
 export interface IFilter {
   setFilteredData: Dispatch<SetStateAction<IData[]>>;
   isCleared?: boolean;
+  filteredData:IData[]
 }
 
 export type RenderEditableCell = (item: IData, key: string) => any;

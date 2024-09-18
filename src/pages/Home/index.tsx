@@ -48,7 +48,11 @@ const Home = () => {
   };
 
   const handleCellDoubleClick = (record: IData, columnId: string) => {
-    setEditableCell({ rowId: record.id, columnId });
+    if (record[columnId] === "barcode") {
+      return;
+    } else {
+      setEditableCell({ rowId: record.id, columnId });
+    }
   };
 
   const handleInputChange = (e: ChangeEvent<HTMLInputElement>) => {
@@ -56,6 +60,20 @@ const Home = () => {
   };
 
   const handleInputBlur = (record: IData, columnId: string) => {
+    if (["barcode", "product_quantity", "price", "product_size"].includes(columnId)) {
+      const valueAsNumber = parseFloat(cellValue);
+
+      if (isNaN(valueAsNumber)) {
+        alert("Invalid input! Please enter a valid number. Strings are not allowed for numeric fields.");
+        setCellValue("");
+        return;
+      } else if (valueAsNumber < 0) {
+        alert("Negative numbers are not allowed for this field.");
+        setCellValue("");
+        return;
+      }
+    }
+
     setFilteredData(
       filteredData.map((item) => {
         if (item.id === record.id) {
@@ -72,13 +90,22 @@ const Home = () => {
     item: IData,
     columnId: string
   ): JSX.Element | string => {
-    if (editableCell.rowId === item.id && editableCell.columnId === columnId) {
+
+    const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>, record: IData, columnId: string) => {
+      if (e.key === "Enter") {
+        handleInputBlur(record, columnId);
+      }
+    };
+    const lastRowId = 101;
+    if (editableCell.rowId === item.id && editableCell.columnId === columnId && editableCell.rowId !== lastRowId) {
       return (
         <input
+          min={0}
           value={cellValue}
+          className={styles.input}
           onChange={handleInputChange}
           onBlur={() => handleInputBlur(item, columnId)}
-          className={styles.input}
+          onKeyDown={(e) => handleKeyDown(e, item, columnId)} 
         />
       );
     }
@@ -92,7 +119,7 @@ const Home = () => {
       <MenuComponent />
       <Flex className={styles.personalAccountContainer}>
         <UserProfile />
-        <Filter setFilteredData={setFilteredData} isCleared={isCleared} />
+        <Filter setFilteredData={setFilteredData} isCleared={isCleared} filteredData={tableData} />
         <UploadData onLoad={onLoad} onClear={onClear} />
         <Table
           data={tableData as unknown as IData[]}

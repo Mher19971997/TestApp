@@ -33,8 +33,8 @@ const data = () => {
         sortIcon: (props) => <Images.Svg.TableIcon {...props} />,
       },
       {
-        title: "Доступно к заказу",
-        dataIndex: "product_quantity",
+        title: "Доступно к заказу ",
+        dataIndex: "product_quantity4",
         key: "center",
         sorter: (a, b) => a.product_quantity - b.product_quantity,
         sortIcon: (props) => <Images.Svg.TableIcon {...props} />,
@@ -48,7 +48,7 @@ const data = () => {
       },
       {
         title: "Итого кол-во товара",
-        dataIndex: "product_quantity1",
+        dataIndex: "product_quantity",
         key: "center",
         sorter: (a, b) => a.product_quantity - b.product_quantity,
         sortIcon: (props) => <Images.Svg.TableIcon {...props} />,
