@@ -7,7 +7,11 @@
         "product_quantity": 20,
         "price": 222,
         "product_article": "A1235677999999",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 2,
@@ -17,7 +21,11 @@
         "product_quantity": 41,
         "price": 2513,
         "product_article": "A1235677999992",
-        "product_size": "20"
+        "product_size": "20",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 3,
@@ -27,7 +35,11 @@
         "product_quantity": 26,
         "price": 2515,
         "product_article": "A123744444",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 4,
@@ -37,7 +49,11 @@
         "product_quantity": 100,
         "price": 2443,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 5,
@@ -47,7 +63,11 @@
         "product_quantity": 62,
         "price": 3032,
         "product_article": "A12333333",
-        "product_size": "30"
+        "product_size": "30",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 6,
@@ -57,7 +77,11 @@
         "product_quantity": 94,
         "price": 59,
         "product_article": "B22222123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 7,
@@ -67,7 +91,11 @@
         "product_quantity": 60,
         "price": 1733,
         "product_article": "A244434123",
-        "product_size": "40"
+        "product_size": "40",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 8,
@@ -77,7 +105,11 @@
         "product_quantity": 79,
         "price": 945,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 9,
@@ -87,7 +119,11 @@
         "product_quantity": 45,
         "price": 3139,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 10,
@@ -97,7 +133,11 @@
         "product_quantity": 44,
         "price": 1454,
         "product_article": "A123",
-        "product_size": "70"
+        "product_size": "70",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 11,
@@ -107,7 +147,11 @@
         "product_quantity": 44,
         "price": 893,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 12,
@@ -117,7 +161,11 @@
         "product_quantity": 88,
         "price": 254,
         "product_article": "A123",
-        "product_size": "20"
+        "product_size": "20",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 13,
@@ -127,7 +175,11 @@
         "product_quantity": 16,
         "price": 1616,
         "product_article": "A123",
-        "product_size": "10"
+        "product_size": "10",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 14,
@@ -137,7 +189,11 @@
         "product_quantity": 9,
         "price": 406,
         "product_article": "A123",
-        "product_size": "90"
+        "product_size": "90",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 15,
@@ -147,7 +203,11 @@
         "product_quantity": 71,
         "price": 2128,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 16,
@@ -157,7 +217,11 @@
         "product_quantity": 61,
         "price": 181,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 17,
@@ -167,7 +231,11 @@
         "product_quantity": 20,
         "price": 2256,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 18,
@@ -177,7 +245,11 @@
         "product_quantity": 90,
         "price": 1346,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 19,
@@ -187,7 +259,11 @@
         "product_quantity": 64,
         "price": 3250,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 20,
@@ -197,7 +273,11 @@
         "product_quantity": 42,
         "price": 604,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 21,
@@ -207,7 +287,11 @@
         "product_quantity": 89,
         "price": 2092,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 22,
@@ -217,7 +301,11 @@
         "product_quantity": 67,
         "price": 2046,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 23,
@@ -227,7 +315,11 @@
         "product_quantity": 76,
         "price": 1053,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 24,
@@ -237,7 +329,11 @@
         "product_quantity": 62,
         "price": 1798,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 25,
@@ -247,7 +343,11 @@
         "product_quantity": 69,
         "price": 527,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 26,
@@ -257,7 +357,11 @@
         "product_quantity": 23,
         "price": 554,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 27,
@@ -267,7 +371,11 @@
         "product_quantity": 13,
         "price": 2606,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 28,
@@ -277,7 +385,11 @@
         "product_quantity": 30,
         "price": 1905,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 29,
@@ -287,7 +399,11 @@
         "product_quantity": 37,
         "price": 323,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 30,
@@ -297,7 +413,11 @@
         "product_quantity": 73,
         "price": 1430,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 31,
@@ -307,7 +427,11 @@
         "product_quantity": 28,
         "price": 2679,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 32,
@@ -317,7 +441,11 @@
         "product_quantity": 69,
         "price": 498,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 33,
@@ -327,7 +455,11 @@
         "product_quantity": 23,
         "price": 584,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 34,
@@ -337,7 +469,11 @@
         "product_quantity": 76,
         "price": 2884,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 35,
@@ -347,7 +483,11 @@
         "product_quantity": 77,
         "price": 1018,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 36,
@@ -357,7 +497,11 @@
         "product_quantity": 58,
         "price": 895,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 37,
@@ -367,7 +511,11 @@
         "product_quantity": 27,
         "price": 2924,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 38,
@@ -377,7 +525,11 @@
         "product_quantity": 36,
         "price": 2819,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 39,
@@ -387,7 +539,11 @@
         "product_quantity": 73,
         "price": 3109,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 40,
@@ -397,7 +553,11 @@
         "product_quantity": 54,
         "price": 2154,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 41,
@@ -407,7 +567,11 @@
         "product_quantity": 18,
         "price": 1659,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 42,
@@ -417,7 +581,11 @@
         "product_quantity": 85,
         "price": 720,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 43,
@@ -427,7 +595,11 @@
         "product_quantity": 93,
         "price": 1946,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 44,
@@ -437,7 +609,11 @@
         "product_quantity": 40,
         "price": 1607,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 45,
@@ -447,7 +623,11 @@
         "product_quantity": 81,
         "price": 2519,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 46,
@@ -457,7 +637,11 @@
         "product_quantity": 41,
         "price": 2233,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 47,
@@ -467,7 +651,11 @@
         "product_quantity": 84,
         "price": 1035,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 48,
@@ -477,7 +665,11 @@
         "product_quantity": 16,
         "price": 1825,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 49,
@@ -487,7 +679,11 @@
         "product_quantity": 38,
         "price": 52,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 50,
@@ -497,7 +693,11 @@
         "product_quantity": 62,
         "price": 783,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 51,
@@ -507,7 +707,11 @@
         "product_quantity": 53,
         "price": 3031,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 52,
@@ -517,7 +721,11 @@
         "product_quantity": 50,
         "price": 3046,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 53,
@@ -527,7 +735,11 @@
         "product_quantity": 77,
         "price": 1120,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 54,
@@ -537,7 +749,11 @@
         "product_quantity": 12,
         "price": 2778,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 55,
@@ -547,7 +763,11 @@
         "product_quantity": 87,
         "price": 386,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 56,
@@ -557,7 +777,11 @@
         "product_quantity": 100,
         "price": 1301,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 57,
@@ -567,7 +791,11 @@
         "product_quantity": 3,
         "price": 3347,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 58,
@@ -577,7 +805,11 @@
         "product_quantity": 84,
         "price": 3085,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 59,
@@ -587,7 +819,11 @@
         "product_quantity": 9,
         "price": 22,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 60,
@@ -597,7 +833,11 @@
         "product_quantity": 60,
         "price": 3061,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 61,
@@ -607,7 +847,11 @@
         "product_quantity": 48,
         "price": 1223,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 62,
@@ -617,7 +861,11 @@
         "product_quantity": 58,
         "price": 2718,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 63,
@@ -627,7 +875,11 @@
         "product_quantity": 69,
         "price": 556,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 64,
@@ -637,7 +889,11 @@
         "product_quantity": 51,
         "price": 780,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 65,
@@ -647,7 +903,11 @@
         "product_quantity": 23,
         "price": 2634,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 66,
@@ -657,7 +917,11 @@
         "product_quantity": 52,
         "price": 3129,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 67,
@@ -667,7 +931,11 @@
         "product_quantity": 62,
         "price": 2908,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 68,
@@ -677,7 +945,11 @@
         "product_quantity": 27,
         "price": 1687,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 69,
@@ -687,7 +959,11 @@
         "product_quantity": 54,
         "price": 19,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 70,
@@ -697,7 +973,11 @@
         "product_quantity": 64,
         "price": 1843,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 71,
@@ -707,7 +987,11 @@
         "product_quantity": 86,
         "price": 2746,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 72,
@@ -717,7 +1001,11 @@
         "product_quantity": 81,
         "price": 3323,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 73,
@@ -727,7 +1015,11 @@
         "product_quantity": 70,
         "price": 2998,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 74,
@@ -737,7 +1029,11 @@
         "product_quantity": 64,
         "price": 428,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 75,
@@ -747,7 +1043,11 @@
         "product_quantity": 1,
         "price": 2698,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 76,
@@ -757,7 +1057,11 @@
         "product_quantity": 74,
         "price": 1294,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 77,
@@ -767,7 +1071,11 @@
         "product_quantity": 91,
         "price": 1317,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 78,
@@ -777,7 +1085,11 @@
         "product_quantity": 99,
         "price": 2273,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 79,
@@ -787,7 +1099,11 @@
         "product_quantity": 15,
         "price": 579,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 80,
@@ -797,7 +1113,11 @@
         "product_quantity": 91,
         "price": 896,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 81,
@@ -807,7 +1127,11 @@
         "product_quantity": 30,
         "price": 1765,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 82,
@@ -817,7 +1141,11 @@
         "product_quantity": 1,
         "price": 2004,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 83,
@@ -827,7 +1155,11 @@
         "product_quantity": 25,
         "price": 1625,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 84,
@@ -837,7 +1169,11 @@
         "product_quantity": 42,
         "price": 676,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 85,
@@ -847,7 +1183,11 @@
         "product_quantity": 28,
         "price": 507,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 86,
@@ -857,7 +1197,11 @@
         "product_quantity": 3,
         "price": 1162,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 87,
@@ -867,7 +1211,11 @@
         "product_quantity": 44,
         "price": 1223,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 88,
@@ -877,7 +1225,11 @@
         "product_quantity": 29,
         "price": 2837,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 89,
@@ -887,7 +1239,11 @@
         "product_quantity": 52,
         "price": 1249,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 90,
@@ -897,7 +1253,11 @@
         "product_quantity": 99,
         "price": 458,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 91,
@@ -907,7 +1267,11 @@
         "product_quantity": 13,
         "price": 2093,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 92,
@@ -917,7 +1281,11 @@
         "product_quantity": 30,
         "price": 1774,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 93,
@@ -927,7 +1295,11 @@
         "product_quantity": 15,
         "price": 1131,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 94,
@@ -937,7 +1309,11 @@
         "product_quantity": 48,
         "price": 703,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 95,
@@ -947,7 +1323,11 @@
         "product_quantity": 82,
         "price": 1226,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 96,
@@ -957,7 +1337,11 @@
         "product_quantity": 90,
         "price": 2745,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 97,
@@ -967,7 +1351,11 @@
         "product_quantity": 38,
         "price": 1614,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 98,
@@ -977,7 +1365,11 @@
         "product_quantity": 38,
         "price": 2556,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 99,
@@ -987,7 +1379,11 @@
         "product_quantity": 55,
         "price": 111,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 100,
@@ -997,7 +1393,11 @@
         "product_quantity": 31,
         "price": 2134,
         "product_article": "A123",
-        "product_size": "50"
+        "product_size": "50",
+        "product_quantity1": 30,
+        "product_quantity2": 40,
+        "product_quantity3": 94,
+        "product_quantity4": 45655
     },
     {
         "id": 101,

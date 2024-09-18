@@ -12,3 +12,11 @@
   width: 100%;
   justify-content: center;
 }
+.input {
+  border: none;
+  background: transparent;
+}
+
+.input:focus-visible {
+  outline: none;
+}

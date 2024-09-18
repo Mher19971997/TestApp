@@ -2,7 +2,8 @@ import { Dispatch, SetStateAction } from "react";
 
 export interface IData {
   id: number;
-  barcode: any;
+  [key: string]: string | number;
+  barcode: number;
   product_brand: string;
   product_name: string;
   product_quantity: number;
@@ -18,4 +19,7 @@ export interface ICategories {
 export interface IFilter {
   setFilteredData: Dispatch<SetStateAction<IData[]>>;
   isCleared?: boolean;
+  filteredData:IData[]
 }
+
+export type RenderEditableCell = (item: IData, key: string) => any;

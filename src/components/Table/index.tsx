@@ -4,27 +4,27 @@ import "../../index.css";
 import { IData } from "../../halpers/types";
 
 interface IDataProps {
-  data: any[];
-  setChangedData: (record: any) => void;  // Update to accept a parameter
+  data: IData[];
+  setChangedData?: (record: IData) => void;
+  handleCellDoubleClick: (record: IData, col: string) => void;
 }
 
-export default function Table({ data, setChangedData }: IDataProps) {
+export default function Table({
+  data,
+  setChangedData,
+  handleCellDoubleClick,
+}: IDataProps) {
   const { columns } = productTableData();
 
-  // Modify columns to handle double-click
-  const modifiedColumns = columns.map((col: any) => ({
+  const modifiedColumns = columns.map((col) => ({
     ...col,
-    onCell: (record: any) => ({
-      onDoubleClick: () => {
-        // Handle double-click here
-        setChangedData(record); // Pass record as argument
-      },
+    onCell: (record: IData) => ({
+      onDoubleClick: () => handleCellDoubleClick(record, col.dataIndex),
     }),
   }));
-  
 
   return (
-    <div className="table-container">
+    <div className="table-container" data-cy='table-container'>
       <AntTable
         dataSource={data}
         columns={modifiedColumns}

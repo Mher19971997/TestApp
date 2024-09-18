@@ -1,17 +1,18 @@
-import React, { Dispatch, SetStateAction, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import Title from "./Title/Title";
 import Card from "./Card/Card";
 import { Button, Flex } from "antd";
-import { Images } from "../../../../assets";
 import styles from "./Filter.module.css";
 import data from "./../../../../DATA.json";
+import { Images } from "../../../../assets";
+import { CSVDownloadBtn } from "../ CSVDownloadBtn";
 import { IData, IFilter } from "../../../../halpers/types";
 import { categories } from "../../../../halpers/constants";
-import { CSVDownloadBtn } from "../ CSVDownloadBtn";
 
-const Filter = ({ setFilteredData, isCleared }: IFilter) => {
+
+
+const Filter = ({ setFilteredData, isCleared, filteredData }: IFilter) => {
   const [filterCategories, setFilterCategories] = useState(categories);
-  const [filtered, setFiltered] = useState<IData[]>([]);
 
   const handleTableData = (e: React.ChangeEvent<HTMLInputElement>, name: string) => {
     setFilterCategories({ ...filterCategories, [name]: e.target.value });
@@ -37,45 +38,45 @@ const Filter = ({ setFilteredData, isCleared }: IFilter) => {
       return;
     }
 
-    setFilteredData(filteredData as any);
+    setFilteredData(filteredData as IData[]);
 
-    if (filteredData.length == 1) {
-      setFiltered([]);
+    if (filteredData.length === 1) {
+      setFilteredData([]);
     } else {
-      setFiltered(filteredData as any);
+      setFilteredData(filteredData as IData[]);
     }
   };
 
   useEffect(() => {
-    if (filtered.length === 0) {
+    if (filteredData.length === 0) {
       setFilteredData([]);
       return;
     }
 
-    const itemsBeforeLast = filtered.slice(0, -1);
+    const itemsBeforeLast = filteredData.slice(0, -1);
     const productQuantity = itemsBeforeLast.reduce((acc, item) => acc + +item.product_quantity, 0);
     const sum = itemsBeforeLast.reduce((acc, item) => acc + +item.price, 0);
 
-    const updatedFiltered = filtered.map((item, index) => {
-      if (index === filtered.length - 1) {
+    const updatedFiltered = filteredData.map((item, index) => {
+      if (index === filteredData.length - 1) {
         return {
           ...item,
-          product_quantity: productQuantity,
-          price: sum
+          product_quantity: isNaN(productQuantity) ? "..." : productQuantity,
+          price: isNaN(sum) ? '...' : sum
         };
       }
       return item;
     });
 
-    setFilteredData(updatedFiltered as any);
-  }, [filtered]);
+    setFilteredData(updatedFiltered as IData[]);
+  }, [filteredData, setFilteredData]);
 
   useEffect(() => {
     if (isCleared) {
       setFilterCategories(categories);
-      setFiltered([]);
+      setFilteredData([]);
     }
-  }, [isCleared]);
+  }, [isCleared, setFilteredData]);
 
   return (
     <div style={{ width: "100%" }}>
@@ -112,7 +113,7 @@ const Filter = ({ setFilteredData, isCleared }: IFilter) => {
           >
             Сформировать
           </Button>
-          <CSVDownloadBtn datas={data as any} downloadLoading={false} />
+          <CSVDownloadBtn datas={data as []} downloadLoading={false} />
         </Flex>
       </div>
     </div>

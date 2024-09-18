@@ -6,9 +6,9 @@ import CsvDownloader from "react-csv-downloader";
 import { Button } from "antd";
 import { Images } from "../../../../assets";
 
-interface CSVDownloadBtnProps {
+export interface CSVDownloadBtnProps {
   datas: {
-    id: number;
+    id: number | string;
     barcode: number;
     product_brand: string;
     product_name: string;
